@@ -30,4 +30,11 @@ namespace Screen
 		SDL_RenderDrawPoint(renderer, x, y);
 	}
 
+	void RasteriseSquare(int x, int y, Vector2* points)
+	{
+
+
+
+	}
+
 }

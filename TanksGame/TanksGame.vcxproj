@@ -137,6 +137,7 @@
     <ClInclude Include="Data.h" />
     <ClInclude Include="Maths.h" />
     <ClInclude Include="Screen.h" />
+    <ClInclude Include="Tank.h" />
     <ClInclude Include="Terrain.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -8,6 +8,7 @@
 #include "Screen.h"
 #include "Maths.h"
 #include "Terrain.h"
+#include "Tank.h"
 
 #undef main
 
@@ -17,6 +18,9 @@ int main()
 
 	Terrain::Generate(5);
 
+	Tank playerTank;
+	playerTank.Init();
+	playerTank.Position = { 600, 400 };
 
 	while (Running)
 	{
@@ -25,6 +29,8 @@ int main()
 
 		Terrain::Draw();
 		//std::cout << "Drawing Frame" << std::endl;
+
+		playerTank.Render();
 
 		SDL_RenderPresent(Screen::renderer);
 	}
