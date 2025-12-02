@@ -2,7 +2,9 @@
 
 
 namespace Maths
-{
+{ 
+	const float PI = 3.14159265358979323846f;
+
 	float RandomSignWave(int randx, int randy, int x, int y)
 	{
 		float Rx = (randx % 10) / 0.03f;
@@ -42,6 +44,13 @@ namespace Maths
 		return out;
 
 	}
+	Vector2 MultiplyVectors(Vector2 a, Vector2 b)
+	{
+		Vector2 out;
+		out.x = a.x * b.x;
+		out.y = a.y * b.y;
+		return out;
+	}
 
 	Vector2 rotateVector(Vector2 a, float angle)
 	{
@@ -73,18 +82,15 @@ namespace Maths
 		for (int x = 0; x < xLoop; x++) {
 			for (int y = 0; y < yLoop; y++)
 			{
-				float SideA = Maths::DotProduct(LineA, Vector2{ (float)x + xMin, (float)y + yMin });
-				float SideB = Maths::DotProduct(LineB, Vector2{ (float)x + xMin, (float)y + yMin });
-				float SideC = Maths::DotProduct(LineC, Vector2{ (float)x + xMin, (float)y + yMin });
+				float SideA = Maths::DotProduct(LineA, Maths::MinusVector2(Vector2{ (float)x + xMin, (float)y + yMin }, A));
+				float SideB = Maths::DotProduct(LineB, Maths::MinusVector2(Vector2{ (float)x + xMin, (float)y + yMin }, B));
+				float SideC = Maths::DotProduct(LineC, Maths::MinusVector2(Vector2{ (float)x + xMin, (float)y + yMin }, C));
 
-				if (SideA >= 0 && SideB >= 0 && SideC >= 0)
+				if ((SideA >= 0 && SideB >= 0 && SideC >= 0) || (SideA <= 0 && SideB <= 0 && SideC <= 0))
 				{
 					Screen::DrawPixel(x + xMin + pos.x, y + yMin + pos.y, SDL_Color{ 255,0,0 });
 				}
 			}
 		}
 	}
-
-
-
 }
