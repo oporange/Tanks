@@ -28,17 +28,8 @@ public:
 			PreviousRotation[i] = Maths::rotateVector(Coords[i], angle - Maths::PI/4);
 		}
 
-		Vector2 MinYPoint = {-100,-100};
-		Vector2 SecondMinYPoint = {-100,-100};
-
-		for (int i = 0; i < 4; i++) {
-			if (MinYPoint.y < PreviousRotation[i].y) {
-				MinYPoint = PreviousRotation[i];
-			}
-			else if (SecondMinYPoint.y < PreviousRotation[i].y) {
-				SecondMinYPoint = PreviousRotation[i];
-			}
-		}
+		Vector2 p1 = Coords[2];
+		Vector2 p2 = Coords[3];
 
 		Vector2 RotatedCoords[4] = {};
 
@@ -51,8 +42,8 @@ public:
 		Maths::RasteriseTriangle(RotatedCoords[0], RotatedCoords[2], RotatedCoords[3], Position);
 
 		SDL_SetRenderDrawColor(Screen::renderer, 0, 255, 0, 255);
-		SDL_RenderDrawPoint(Screen::renderer, (int)(MinYPoint.x + Position.x), (int)(MinYPoint.y + Position.y));
-		SDL_RenderDrawPoint(Screen::renderer, (int)(SecondMinYPoint.x + Position.x), (int)(SecondMinYPoint.y + Position.y));
+		SDL_RenderDrawPoint(Screen::renderer, (int)(p1.x + Position.x), (int)(p1.y + Position.y));
+		SDL_RenderDrawPoint(Screen::renderer, (int)(p2.x + Position.x), (int)(p2.y + Position.y));
 	}
 
 };
