@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\TGJGx\\Documents\\coding\\c\u002B\u002B\\Tanks\\TanksGame\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{52EDD27A-C6D9-4B65-B905-BA304F738C00}|TanksGame.vcxproj|C:\\Users\\TGJGx\\Documents\\coding\\c\u002B\u002B\\Tanks\\TanksGame\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{52EDD27A-C6D9-4B65-B905-BA304F738C00}|TanksGame.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{52EDD27A-C6D9-4B65-B905-BA304F738C00}|TanksGame.vcxproj|C:\\Users\\TGJGx\\Documents\\coding\\c\u002B\u002B\\Tanks\\TanksGame\\Tank.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{52EDD27A-C6D9-4B65-B905-BA304F738C00}|TanksGame.vcxproj|solutionrelative:Tank.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -15,16 +11,28 @@
       "RelativeMoniker": "D:0:0:{52EDD27A-C6D9-4B65-B905-BA304F738C00}|TanksGame.vcxproj|solutionrelative:Terrain.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{52EDD27A-C6D9-4B65-B905-BA304F738C00}|TanksGame.vcxproj|C:\\Users\\TGJGx\\Documents\\coding\\c\u002B\u002B\\Tanks\\TanksGame\\Explosion.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{52EDD27A-C6D9-4B65-B905-BA304F738C00}|TanksGame.vcxproj|solutionrelative:Explosion.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52EDD27A-C6D9-4B65-B905-BA304F738C00}|TanksGame.vcxproj|C:\\Users\\TGJGx\\Documents\\coding\\c\u002B\u002B\\Tanks\\TanksGame\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{52EDD27A-C6D9-4B65-B905-BA304F738C00}|TanksGame.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52EDD27A-C6D9-4B65-B905-BA304F738C00}|TanksGame.vcxproj|C:\\Users\\TGJGx\\Documents\\coding\\c\u002B\u002B\\Tanks\\TanksGame\\Input.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{52EDD27A-C6D9-4B65-B905-BA304F738C00}|TanksGame.vcxproj|solutionrelative:Input.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52EDD27A-C6D9-4B65-B905-BA304F738C00}|TanksGame.vcxproj|C:\\Users\\TGJGx\\Documents\\coding\\c\u002B\u002B\\Tanks\\TanksGame\\Data.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{52EDD27A-C6D9-4B65-B905-BA304F738C00}|TanksGame.vcxproj|solutionrelative:Data.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{52EDD27A-C6D9-4B65-B905-BA304F738C00}|TanksGame.vcxproj|C:\\Users\\TGJGx\\Documents\\coding\\c\u002B\u002B\\Tanks\\TanksGame\\Screen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{52EDD27A-C6D9-4B65-B905-BA304F738C00}|TanksGame.vcxproj|solutionrelative:Screen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{52EDD27A-C6D9-4B65-B905-BA304F738C00}|TanksGame.vcxproj|C:\\Users\\TGJGx\\Documents\\coding\\c\u002B\u002B\\Tanks\\TanksGame\\Maths.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{52EDD27A-C6D9-4B65-B905-BA304F738C00}|TanksGame.vcxproj|solutionrelative:Maths.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{52EDD27A-C6D9-4B65-B905-BA304F738C00}|TanksGame.vcxproj|C:\\Users\\TGJGx\\Documents\\coding\\c\u002B\u002B\\Tanks\\TanksGame\\Data.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{52EDD27A-C6D9-4B65-B905-BA304F738C00}|TanksGame.vcxproj|solutionrelative:Data.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,50 +42,76 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\TGJGx\\Documents\\coding\\c\u002B\u002B\\Tanks\\TanksGame\\main.cpp",
               "RelativeDocumentMoniker": "main.cpp",
               "ToolTip": "C:\\Users\\TGJGx\\Documents\\coding\\c\u002B\u002B\\Tanks\\TanksGame\\main.cpp",
               "RelativeToolTip": "main.cpp",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABYAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABUAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-12-01T10:38:01.504Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Tank.h",
               "DocumentMoniker": "C:\\Users\\TGJGx\\Documents\\coding\\c\u002B\u002B\\Tanks\\TanksGame\\Tank.h",
               "RelativeDocumentMoniker": "Tank.h",
               "ToolTip": "C:\\Users\\TGJGx\\Documents\\coding\\c\u002B\u002B\\Tanks\\TanksGame\\Tank.h",
               "RelativeToolTip": "Tank.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAABJAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB4AAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-12-01T22:38:20.099Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Terrain.h",
               "DocumentMoniker": "C:\\Users\\TGJGx\\Documents\\coding\\c\u002B\u002B\\Tanks\\TanksGame\\Terrain.h",
               "RelativeDocumentMoniker": "Terrain.h",
               "ToolTip": "C:\\Users\\TGJGx\\Documents\\coding\\c\u002B\u002B\\Tanks\\TanksGame\\Terrain.h",
               "RelativeToolTip": "Terrain.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAYwD0AAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-12-01T11:51:07.417Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Explosion.h",
+              "DocumentMoniker": "C:\\Users\\TGJGx\\Documents\\coding\\c\u002B\u002B\\Tanks\\TanksGame\\Explosion.h",
+              "RelativeDocumentMoniker": "Explosion.h",
+              "ToolTip": "C:\\Users\\TGJGx\\Documents\\coding\\c\u002B\u002B\\Tanks\\TanksGame\\Explosion.h",
+              "RelativeToolTip": "Explosion.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-12-05T12:49:43.326Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "Input.h",
+              "DocumentMoniker": "C:\\Users\\TGJGx\\Documents\\coding\\c\u002B\u002B\\Tanks\\TanksGame\\Input.h",
+              "RelativeDocumentMoniker": "Input.h",
+              "ToolTip": "C:\\Users\\TGJGx\\Documents\\coding\\c\u002B\u002B\\Tanks\\TanksGame\\Input.h",
+              "RelativeToolTip": "Input.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-12-05T12:51:57.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Maths.h",
               "DocumentMoniker": "C:\\Users\\TGJGx\\Documents\\coding\\c\u002B\u002B\\Tanks\\TanksGame\\Maths.h",
               "RelativeDocumentMoniker": "Maths.h",
@@ -89,7 +123,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Screen.h",
               "DocumentMoniker": "C:\\Users\\TGJGx\\Documents\\coding\\c\u002B\u002B\\Tanks\\TanksGame\\Screen.h",
               "RelativeDocumentMoniker": "Screen.h",
@@ -97,8 +131,7 @@
               "RelativeToolTip": "Screen.h",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-12-01T11:43:47.351Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-01T11:43:47.351Z"
             },
             {
               "$type": "Document",
@@ -110,7 +143,8 @@
               "RelativeToolTip": "Data.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-12-01T11:47:47.36Z"
+              "WhenOpened": "2025-12-01T11:47:47.36Z",
+              "EditorCaption": ""
             }
           ]
         }

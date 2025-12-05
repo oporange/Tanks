@@ -18,17 +18,17 @@ public:
 
 	void Render()
 	{
-		Position.x += 0.1f;
+		Position.x += 0.08f;
 
 		Vector2 p1 = Coords[2];
 		Vector2 p2 = Coords[3];
 
-		int P1_TerrainHeight = 0;
+		int P1_TerrainHeight = Position.y - p1.y;
 		while (Terrain::TerrainBuffer[(int)(p1.x + Position.x)][P1_TerrainHeight] == 0)
 		{
 			P1_TerrainHeight++;
 		}
-		int P2_TerrainHeight = 0;
+		int P2_TerrainHeight = Position.y - p2.y;
 		while (Terrain::TerrainBuffer[(int)(p2.x + Position.x)][P2_TerrainHeight] == 0)
 		{
 			P2_TerrainHeight++;
@@ -48,11 +48,6 @@ public:
 
 		Maths::RasteriseTriangle(RotatedCoords[0], RotatedCoords[1], RotatedCoords[2], Position);
 		Maths::RasteriseTriangle(RotatedCoords[0], RotatedCoords[2], RotatedCoords[3], Position);
-
-		SDL_SetRenderDrawColor(Screen::renderer, 0, 0, 255, 255);
-
-		SDL_RenderDrawPoint(Screen::renderer, (int)(p1.x + Position.x), (int)(P1_TerrainHeight));
-		SDL_RenderDrawPoint(Screen::renderer, (int)(p2.x + Position.x), (int)(P2_TerrainHeight));
 	}
 
 };

@@ -55,7 +55,11 @@ namespace Terrain
 
 
 			}}
-
+	}
+	void Render()
+	{
+		TerrainTexture = SDL_CreateTexture(Screen::renderer, SDL_PIXELFORMAT_RGBA8888, SDL_TEXTUREACCESS_TARGET,
+			Screen::SCREEN_WIDTH, Screen::SCREEN_HEIGHT);
 		SDL_SetRenderTarget(Screen::renderer, TerrainTexture);
 
 		for (int x = 0; x < Screen::SCREEN_WIDTH; x++) {
@@ -73,7 +77,6 @@ namespace Terrain
 	{
 		SDL_Rect destRect = { 0, 0, Screen::SCREEN_WIDTH, Screen::SCREEN_HEIGHT };
 		SDL_RenderCopy(Screen::renderer, TerrainTexture, NULL, &destRect);
-		std::cout << SDL_GetError() << std::endl;
 	}
 
 
