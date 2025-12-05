@@ -6,10 +6,22 @@ namespace Terrain
 {
 
 	int TerrainBuffer[Screen::SCREEN_WIDTH][Screen::SCREEN_HEIGHT];
+	SDL_Texture* TerrainTexture;
 
+	void ClearBuffer()
+	{
+		for (int x = 0; x < Screen::SCREEN_WIDTH; x++) {
+			for (int y = 0; y < Screen::SCREEN_HEIGHT; y++)
+			{
+				TerrainBuffer[x][y] = 0;
+			}
+		}
+	}
 
 	void Generate(int Lacunarity) 
 	{
+		TerrainTexture = SDL_CreateTexture(Screen::renderer, SDL_PIXELFORMAT_RGBA8888, SDL_TEXTUREACCESS_TARGET,
+									Screen::SCREEN_WIDTH, Screen::SCREEN_HEIGHT);
 		srand(time(0));
 
 		std::vector<float> rands;
@@ -44,10 +56,8 @@ namespace Terrain
 
 			}}
 
-	}
+		SDL_SetRenderTarget(Screen::renderer, TerrainTexture);
 
-	void Draw()
-	{
 		for (int x = 0; x < Screen::SCREEN_WIDTH; x++) {
 			for (int y = 0; y < Screen::SCREEN_HEIGHT; y++)
 			{
@@ -56,6 +66,14 @@ namespace Terrain
 				}
 			}
 		}
+		SDL_SetRenderTarget(Screen::renderer, NULL);
+	}
+
+	void Draw()
+	{
+		SDL_Rect destRect = { 0, 0, Screen::SCREEN_WIDTH, Screen::SCREEN_HEIGHT };
+		SDL_RenderCopy(Screen::renderer, TerrainTexture, NULL, &destRect);
+		std::cout << SDL_GetError() << std::endl;
 	}
 
 

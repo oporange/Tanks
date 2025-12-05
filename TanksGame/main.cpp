@@ -20,7 +20,7 @@ int main()
 
 	Tank playerTank;
 	playerTank.Init();
-	playerTank.Position = { 600, 400 };
+	playerTank.Position = { 200, 400 };
 
 	while (Running)
 	{
